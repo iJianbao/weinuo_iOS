@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (1.1.0)
+  - MJRefresh (3.4.3)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Masonry
+  - MJRefresh
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - MJRefresh
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 9fe3766963c55a35e2ad6599e8b7e728e3703b60
+
+COCOAPODS: 1.9.0

@@ -1,0 +1,344 @@
+/*
+ Localization.strings
+ Demo
+ 
+ Created by UNISK on 15/10/13.
+ Copyright © 2015年 ZYQ. All rights reserved.
+ */
+"CFBundleName" = "WN_DESK";
+"CFBundleDisplayName" = "WN_DESK";
+
+"control" ="Control";
+"aboutHealth" ="About Health";
+"bluetooth" = "Bluetooth";
+"pairedDevices" ="Paired devices";
+"connectionDevices" ="The current connection devices";
+"historyDevices" ="History connected devices";
+"availableDevices" ="Available devices";
+"notAvailableDevices" = "Can't find any available devices";
+
+"searching" ="Searching...";
+
+"trunOnBluetooth" ="Please turn on Bluetooth";
+
+"connectBluetooth" ="Connect Bluetooth";
+
+"connecting" ="Connecting ...";
+
+"cluetoothConnected" ="Bluetooth connected";
+
+"cluetoothDisconnected" = "Bluetooth disconnected";
+
+"notSupportBluetooth" ="The device does not support bluetooth";
+
+"successfulConnection" = "Successful connection";
+
+"notSupportLowBluetooth" ="The device does not support low power consumption bluetooth (BLE) ";
+
+"positioningNotOpen" ="Positioning not open";
+
+"PositioningOpened" ="Positioning opened";
+
+"connectDesk" ="Connect smart desk";
+
+"dataFailure" ="Data transmission failure, please check the connection.";
+
+"uncontrolled" ="Equipment uncontrolled, please check the connection.";
+
+"healthData" ="Health data";
+
+"standRatio" ="Sit & stand ratio";
+
+"7Days" ="Recent 7 days record";
+
+"sittingTime:" ="Sitting time:";
+
+"standingTime:" ="Standing time:";
+
+"date" ="Date";
+
+"sittingTimeHours" ="Sitting time (hours)";
+
+"standingTimeHours" ="Standing time (hours)";
+
+"sitStandRatio" ="Sit & stand ratio";
+
+"noData" ="No data";
+
+"hours" ="Hours";
+
+"minutes" ="Minutes";
+
+"more" ="More";
+
+"version  " ="Version";
+
+"warning1" = "Warning!";
+
+"rename" ="Rename";
+
+"pleaseRename" ="Please rename";
+
+"heightName" = "name";
+
+"heightCount" = "height";
+
+"max20" ="Maximum 20 characters supported.";
+
+"reName20" ="Re-name within 20 characters";
+
+"reNameNoEmpty" ="Rename can't be empty, please try again";
+
+"nameExists" ="The name already exists";
+
+"upTo12Groups" = "Up to 12 groups";
+
+"saveAfter" ="Please save after revise";
+
+"notAllowed" ="Special symbol is not allowed";
+
+"notEmpty" ="Model can't be empty. Please try again";
+
+"nameNotEmpty" ="Name can't be empty";
+
+"canNotEmpty" = "Can't be empty";
+
+"less5Seconds" = "Can't be less than 5 seconds";
+
+"greater300Seconds" = "Can't be greater than 300 seconds";
+
+"appExit" ="The program appears abnormal, it will exit immediately.";
+
+"yes" ="Yes";
+
+"edit" ="Edit";
+
+"add" ="Add";
+
+"saveSuccessfully" ="Save successfully";
+
+"saveFailed" ="Save failed";
+
+"initializing" ="Initializing";
+
+"initializingFailed" ="Initializing failed, please check the connection";
+
+"setting" ="Setting";
+
+"settingSuccessfully" ="Setting successfully";
+
+"settingFailed" ="Setting failed";
+
+"save" ="Save";
+
+"smartDeskControl" ="Smart Desk Control";
+
+"delete" ="Delete";
+
+"currentHeight" ="Current height";
+
+"memoryHeight" ="Memory height";
+
+"noMemoryHeight" ="No memory height";
+
+"chooseMemoryHeight" ="Choose memory height";
+//
+//"shurunicheng" ="建议输入爸爸 妈妈 爷爷 奶奶等";
+"memoryHeight1" ="Memory height 1";
+
+"modelExists" ="The model already exists";
+
+"settings" = "Settings";
+
+"unit" ="Unit";
+
+"cm" ="CM";
+
+"inch" ="Inch";
+
+"screenSaverTime" ="Screen saver time";
+
+"s" = "s";
+
+"30s" ="30s";
+
+"60s" ="60s";
+
+"90s" ="90s";
+
+"120s" ="120s";
+
+"always-on" ="Always-on";
+
+"customs" ="Custom(s)";
+
+"enterValues" ="Please enter the values";
+
+"rangeIs" ="Please enter the correct values，range is";
+
+"protection" ="Collision protection";
+
+"close" ="Close";
+
+"mild" ="Mild";
+
+"moderate" ="Moderate";
+
+"severe" ="Severe";
+
+"lishi" ="History";
+
+"self-learning" ="Self-learning";
+
+"reset" ="Reset";
+
+"inSelf-learning" ="In self-learning";
+
+"self-learningFinish" ="Self-learning finish";
+
+"Self-learningFailed" ="Self-learning failed";
+
+"resetting" ="Resetting";
+
+"cancelResetting" = "Return will cancel reset";
+
+"resetFinish" ="Reset finish";
+
+"resetFailed" ="Reset failed";
+
+"sendFails" ="Send command fails";
+
+"buzzer" ="Buzzer";
+
+"open" ="Open";
+
+"close" ="Close";
+
+"handleBrightness" ="Handle brightness";
+
+"energySave" ="Energy save";
+
+"normalBrightness" ="Normal brightness";
+
+"highBrightness" ="High brightness";
+
+"cancel" = "Cancel";
+
+"sure" = "Sure";
+
+//"MJRefreshHeaderIdleText" = "下拉可以刷新";
+//"MJRefreshHeaderPullingText" = "松开立即刷新";
+//"MJRefreshHeaderRefreshingText" = "正在刷新数据中...";
+//
+//"MJRefreshAutoFooterIdleText" = "点击或上拉加载更多";
+//"MJRefreshAutoFooterRefreshingText" = "正在加载更多的数据...";
+//"MJRefreshAutoFooterNoMoreDataText" = "已经全部加载完毕";
+//
+//"MJRefreshBackFooterIdleText" = "上拉可以加载更多";
+//"MJRefreshBackFooterPullingText" = "松开立即加载更多";
+//"MJRefreshBackFooterRefreshingText" = "正在加载更多的数据...";
+//"MJRefreshBackFooterNoMoreDataText" = "已经全部加载完毕";
+
+"heightSet" ="Height set";
+
+"standingMode" ="Standing mode";
+
+"sitMode" ="Sit mode";
+
+"pleaseInputCorrectHeight" ="Please input the correct height, range is";
+
+"pleaseEnterHeight" ="Please enter the height";
+
+"pleaseEnterCorrectNameHeight" ="Please enter the correct name or height";
+
+"pleaseNameMemoryHeight" ="Please name the memory height within 10 characters";
+
+"max12" ="Maximum 12 groups memory data can be support";
+
+"sedentaryRemind" ="Sedentary remind";
+
+"overHours" ="Sitting over hours, stand & sit mode is suggested.";
+
+"sitting time" ="Sitting time set ? hours ? minute";
+
+"about" ="About";
+
+"technicalSupport" ="Technical support  ：  Winner Intelligent";
+
+"highestPosition" ="At the highest position";
+
+"lowestPosition" ="At the lowest position";
+
+"exitProgram" ="Top again to exit the program";
+
+"warning" ="Warning";
+
+"alarm" ="Alarm";
+
+"overvoltage" ="Input power overvoltage";
+
+"under-voltage" ="Input power under-voltage";
+
+"overloadAlarm" ="Overload alarm";
+
+"overheatAlarm" ="Overheat alarm";
+
+"collisionAlarm" ="Collision alarm";
+
+"out-of-stepAlarm" ="Out-of-step alarm";
+
+"noHallAlarm " ="No hall alarm";
+
+"unknownError" ="Unknown error";
+
+"system0" ="System input main power voltage is too high, the system can't work normally";
+
+"system1" ="System input main power voltage is too low, system can't work normally";
+
+"system2" ="Maximum load exceeds, the system can't work normally";
+
+"system3" ="System overheating, the system can't work normally";
+
+"system4" ="Sytem back when meeting obstacle";
+
+"system5" ="Each motor is running out of sync";
+
+"system6" ="Motor is not connected or hall signal can't be detected";
+
+"system7" ="Unknown error";
+
+"system8" ="Please check the power supply, reconnect the system if normal;or contact with the supplier if alarm not solved.";
+
+"system9" ="Please check the power supply, reconnect the system if normal;or contact with the supplier if alarm not solved.";
+
+"system10" ="Please make sure it is in maximum load range, then re-power on or press reset to solve the problem.";
+
+"system11" ="System is overheating, please follow the instructions and wait until the system cooling";
+
+"system12" ="Without any operation, the system will be back automatically and alarm solved.";
+
+"system13" ="Reset the system to solve the problem.";
+
+"system14" ="Please check the motor, press reset if connection normal; otherwise please contact with the supplier";
+
+"system15" ="Press reset to solve the problem, otherwise please contact with the supplier";
+
+
+
+
+/** 图片 */
+"pic_disconnected_error" = "pic_disconnected_error_e";
+
+"btn_disconnected_go" = "btn_disconnected_go_e";
+
+"btn_mode_memory_pre" = "btn_mode_memory_pre_e";
+
+"btn_mode_memory" = "btn_mode_memory_e";
+
+"btn_mode_sit_pre" = "btn_mode_sit_pre_e";
+
+"btn_mode_sit" = "btn_mode_sit_e";
+
+"btn_mode_stand_pre" = "btn_mode_stand_pre_e";
+
+"btn_mode_stand" = "btn_mode_stand_e";

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LongSitWaringView">
+            <rect key="frame" x="0.0" y="0.0" width="442" height="292"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fmy-1Y-vco">
+                    <rect key="frame" x="0.0" y="0.0" width="442" height="55"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_warnning.png" translatesAutoresizingMaskIntoConstraints="NO" id="oei-bj-u7M">
+                            <rect key="frame" x="15" y="7.5" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="QPn-Jr-Ih2"/>
+                                <constraint firstAttribute="width" constant="40" id="RHJ-NY-Ifu"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="警告" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WJs-UE-0nX">
+                            <rect key="frame" x="201.5" y="16" width="39" height="23"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                            <color key="textColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.60392156862745094" green="0.65098039215686276" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="WJs-UE-0nX" firstAttribute="centerY" secondItem="Fmy-1Y-vco" secondAttribute="centerY" id="40H-K4-aVg"/>
+                        <constraint firstItem="WJs-UE-0nX" firstAttribute="centerX" secondItem="Fmy-1Y-vco" secondAttribute="centerX" id="49E-ed-qh1"/>
+                        <constraint firstItem="oei-bj-u7M" firstAttribute="centerY" secondItem="Fmy-1Y-vco" secondAttribute="centerY" id="NYo-Xj-CDm"/>
+                        <constraint firstItem="oei-bj-u7M" firstAttribute="leading" secondItem="Fmy-1Y-vco" secondAttribute="leading" constant="15" id="cLv-kr-jD7"/>
+                        <constraint firstAttribute="height" constant="55" id="dDq-wx-tAL"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="up_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="8kT-1y-GEv">
+                    <rect key="frame" x="0.0" y="65" width="60" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="koz-Wa-mxQ"/>
+                        <constraint firstAttribute="width" constant="60" id="sU7-4y-VJf"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您已工作*小时，建议站坐交替办公" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftz-1Y-u8h">
+                    <rect key="frame" x="72" y="125" width="350" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5w0-6O-Xk7">
+                    <rect key="frame" x="328" y="215" width="74" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Su7-Md-dVf"/>
+                    </constraints>
+                    <state key="normal" title="继续等待">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="sureBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="LwB-YW-Vhe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2P-Oy-WSd">
+                    <rect key="frame" x="40" y="215" width="111" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Taz-Fb-fix"/>
+                    </constraints>
+                    <state key="normal" title="关闭久坐提醒">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="closeBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="GPg-Tx-o47"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ftz-1Y-u8h" firstAttribute="centerY" secondItem="8kT-1y-GEv" secondAttribute="centerY" id="9bK-8f-iVf"/>
+                <constraint firstItem="Fmy-1Y-vco" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ApR-Km-7nR"/>
+                <constraint firstItem="X2P-Oy-WSd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="C1S-jT-6jN"/>
+                <constraint firstAttribute="trailing" secondItem="Fmy-1Y-vco" secondAttribute="trailing" id="OyU-jQ-IIh"/>
+                <constraint firstAttribute="trailing" secondItem="5w0-6O-Xk7" secondAttribute="trailing" constant="40" id="Qbw-cp-xiF"/>
+                <constraint firstItem="Fmy-1Y-vco" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="RUe-oc-Tr9"/>
+                <constraint firstItem="5w0-6O-Xk7" firstAttribute="top" secondItem="8kT-1y-GEv" secondAttribute="bottom" constant="10" id="WOB-Mr-nZh"/>
+                <constraint firstItem="8kT-1y-GEv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eMO-BE-Jk6"/>
+                <constraint firstItem="8kT-1y-GEv" firstAttribute="top" secondItem="Fmy-1Y-vco" secondAttribute="bottom" constant="10" id="jYn-6g-EqY"/>
+                <constraint firstItem="ftz-1Y-u8h" firstAttribute="leading" secondItem="8kT-1y-GEv" secondAttribute="trailing" constant="12" id="mjD-6j-eZM"/>
+                <constraint firstItem="X2P-Oy-WSd" firstAttribute="top" secondItem="5w0-6O-Xk7" secondAttribute="top" id="oPl-cT-Qqp"/>
+                <constraint firstAttribute="trailing" secondItem="ftz-1Y-u8h" secondAttribute="trailing" constant="20" symbolic="YES" id="qi9-gD-awY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="closeButton" destination="X2P-Oy-WSd" id="FjW-eQ-YDC"/>
+                <outlet property="contentLabel" destination="ftz-1Y-u8h" id="CBB-1z-7tC"/>
+                <outlet property="standSitImageView" destination="8kT-1y-GEv" id="1Nw-iZ-1NQ"/>
+                <outlet property="sureButton" destination="5w0-6O-Xk7" id="fII-PQ-Mwl"/>
+                <outlet property="waringLabel" destination="WJs-UE-0nX" id="q2o-yd-bng"/>
+            </connections>
+            <point key="canvasLocation" x="157.97101449275362" y="-73.660714285714278"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_warnning.png" width="33" height="33"/>
+        <image name="up_1.png" width="25" height="65.5"/>
+    </resources>
+</document>

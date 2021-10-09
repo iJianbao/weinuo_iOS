@@ -1,0 +1,28 @@
+/* 
+  InfoPlist.strings
+  loobot
+
+  Created by loobot on 16/12/30.
+  Copyright © 2016年 ronglian. All rights reserved.
+*/
+
+"CFBundleName" = "SmartDeskControl";
+"CFBundleDisplayName" = "SmartDeskControl";
+
+"NSBluetoothAlwaysUsageDescription" = "SmartDeskControl想使用您的蓝牙，获取周围设备";
+"NSBluetoothPeripheralUsageDescription" = "SmartDeskControl想使用您的蓝牙，获取周围设备";
+"NSCalendarsUsageDescription" = "SmartDeskControl想使用您的日历权限";
+"NSContactsUsageDescription" = "SmartDeskControl想使用您的通讯录权限";
+"NSPhotoLibraryUsageDescription" = "SmartDeskControl想使用您的相册录权限";
+
+/*
+"CFBundleName" = "Aleganta";
+"CFBundleDisplayName" = "Aleganta";
+
+"NSBluetoothAlwaysUsageDescription" = "Aleganta想使用您的蓝牙，获取周围设备";
+"NSBluetoothPeripheralUsageDescription" = "Aleganta想使用您的蓝牙，获取周围设备";
+"NSCalendarsUsageDescription" = "Aleganta想使用您的日历权限";
+"NSContactsUsageDescription" = "Aleganta想使用您的通讯录权限";
+"NSPhotoLibraryUsageDescription" = "Aleganta想使用您的相册录权限";
+*/
+

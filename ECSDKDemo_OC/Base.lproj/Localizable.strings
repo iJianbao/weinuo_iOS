@@ -1,0 +1,370 @@
+/*
+ Localization.strings
+ Demo
+ 
+ Created by UNISK on 15/10/13.
+ Copyright © 2015年 ZYQ. All rights reserved.
+ */
+/*
+"CFBundleName" = "SmartDeskControl";
+"CFBundleDisplayName" = "SmartDeskControl";
+ */
+"CFBundleName" = "Aleganta";
+"CFBundleDisplayName" = "Aleganta";
+
+"control" ="Управление";
+"aboutHealth" ="О здоровье";
+"bluetooth" = "Bluetooth";
+"pairedDevices" ="Сопряжённые устройства";
+"connectionDevices" ="Соединённые устройства";
+"historyDevices" ="Ранее соединённые устройства";
+"availableDevices" ="Доступные устройства";
+"notAvailableDevices" = "Невозможно обнаружить доступные устройства";
+
+"notAvailablePermission" = "Откройте права доступа к Bluetooth в настройках перемещения";
+
+"timeout" = "timeOut...";
+
+"searching" ="Поиск…";
+
+"trunOnBluetooth" ="Включите Bluetooth";
+
+"connectBluetooth" ="Соединить Bluetooth";
+
+"connecting" ="Соединение…";
+
+"cluetoothConnected" = "Bluetooth соединён";
+
+"cluetoothDisconnected" = "Bluetooth отключённый";
+
+"bluetoothDisconnected" = "bluetooth отключённый";
+
+"notSupportBluetooth" ="Устройство не поддерживает Bluetooth";
+
+"successfulConnection" = "Bluetooth соединён";
+
+"notSupportLowBluetooth" ="Устройство не поддерживает Bluetooth (BLE) с низким энергопотреблением. ";
+
+"positioningNotOpen" ="Функция определения местоположения не включена";
+
+"PositioningOpened" ="Функция определения местоположения включена";
+
+"connectDesk" ="Подключить умный стол";
+
+"dataFailure" ="Передача данных не удалась, проверьте соединение.";
+
+"uncontrolled" ="Оборудование не работает, проверьте соединение.";
+
+"healthData" ="Информация о здоровье";
+
+"standRatio" ="Время, проведённое сидя и стоя";
+
+"7Days" ="Данные за 7 дней";
+
+"sittingTime" ="Время, проведённое сидя:";
+
+"standingTime" ="Время, проведённое стоя:";
+
+"date" ="Дата: ";
+
+"sittingTimeHours" ="Время, проведённое сидя (часы)";
+
+"standingTimeHours" ="Время, проведённое стоя (часы)";
+
+"sitStandRatio" ="Время, проведённое сидя и стоя";
+
+"noData" ="Нет данных";
+
+"hours" ="Час(ов)";
+
+"minutes" ="Минут";
+
+"more" ="Больше информации";
+
+"version" ="Версия";
+
+"warning1" = "Предупреждение!";
+
+"rename" ="Переименовать";
+
+"pleaseRename" ="Введите имя Bluetooth";
+
+"inputName" = "Введите имя";
+
+"heightName" = "имя";
+
+"heightCount" = "высота";
+
+"max20" ="Поддерживается max 20 символов";
+
+"reName20" ="Повторный ввод в пределах 20 символов";
+
+"reNameNoEmpty" ="Поле не может быть пустым, введите повторно";
+
+"nameExists" ="Название уже существует";
+
+"upTo12Groups" = "до 12 групп";
+
+"saveAfter" ="Измените и сохраните ";
+
+"notAllowed" ="Невозможно ввести символ";
+
+"notEmpty" ="Поле не может быть пустым, введите повторно";
+
+"nameNotEmpty" ="Поле имени не может быть пустым";
+
+"canNotEmpty" = "Поле имени не может быть пустым";
+
+"less5Seconds" = "не менее 5 секунд";
+
+"greater300Seconds" = "не более 300 секунд";
+
+"appExit" ="Система не отвечает, программа закроется автоматически";
+
+"yes" ="Да";
+
+"continue_long_tip" = "НАПОМНИТЬ ПОЗЖЕ";
+
+"close_long_tip" ="ЗАКРЫТЬ";
+
+"localNotifiContent" = "ВРЕМЯ ПОРАБОТАТЬ СТОЯ";
+
+"edit" ="Изменить";
+
+"add" ="Добавить";
+
+"saveSuccessfully" ="Сохранить";
+
+"saveFailed" ="Сохранение не завершено";
+
+"initializing" ="Запуск";
+
+"initializingFailed" ="Не удалось выполнить инициализацию. Проверьте подключение устройства";
+
+"setting" ="Установка";
+
+"settingSuccessfully" ="Установка завершена";
+
+"settingFailed" ="Сбой установки";
+
+"save" ="Сохранить";
+
+"smartDeskControl" ="Управление умным столом";
+
+"delete" ="Удалить";
+
+"currentHeight" ="Текущая высота";
+
+"memoryHeight" ="Сохранённая высота";
+
+"noMemoryHeight" ="Высота не сохранена";
+
+"chooseMemoryHeight" ="Выбрать сохранённую высоту";
+//
+//"shurunicheng" ="建议输入爸爸 妈妈 爷爷 奶奶等";
+"memoryHeight1" ="Сохранённая высота 1";
+
+"modelExists" ="Модель уже существует";
+
+"settings" = "Настройки ";
+
+"unit" ="Номер";
+
+"cm" ="см";
+
+"inch" ="дюйм";
+
+"screenSaverTime" ="Экранная заставка";
+
+"s" = "сек";
+
+"30s" ="30 сек";
+
+"60s" ="60 сек";
+
+"90s" ="90 сек";
+
+"120s" ="120 сек";
+
+"always-on" ="Постоянно";
+
+"customs" ="Специальный режим";
+
+"customsssss" ="другой";
+
+"enterValues" ="Введите данные";
+
+"rangeIs" ="Введите правильные данные, диапазон";
+
+"protection" ="Противоударная защита";
+
+"close" ="Прекращение работы";
+
+"mild" ="Умеренный";
+
+"moderate" ="Средний";
+
+"severe" ="Сильный";
+
+"lishi" ="History";
+
+"self-learning" ="Самообучение";
+
+"reset" ="Перезагрузка";
+
+"inSelf-learning" ="Режим самообучения включён";
+
+"self-learningFinish" ="Самообучение закончено";
+
+"Self-learningFailed" ="Самообучение не выполнено";
+
+"resetting" ="Перезагрузка";
+
+"cancelResetting" = "возвращение отменит сброс";
+
+"resetFinish" ="Перезагрузка завершена";
+
+"resetFailed" ="Перезагрузка не выполнена";
+
+"sendFails" ="Команда не выполнена";
+
+"buzzer" ="Звуковой сигнал";
+
+"open" ="Вкл";
+
+"off" ="Выкл";
+
+"handleBrightness" ="Ручная настройка яркости экрана";
+
+"energySave" ="Энергосберегающий режим";
+
+"normalBrightness" ="Нормальный";
+
+"highBrightness" ="Яркий";
+
+"cancel" = "Oтмена";
+
+"sure" = "Oпределение";
+
+"setting_longtime" = "Напоминание о разминке";
+
+"setting_toast_longtime" = "Время, проведённое сидя %@";
+
+"to_connected" = "соединять";
+//"MJRefreshHeaderIdleText" = "下拉可以刷新";
+//"MJRefreshHeaderPullingText" = "松开立即刷新";
+//"MJRefreshHeaderRefreshingText" = "正在刷新数据中...";
+//
+//"MJRefreshAutoFooterIdleText" = "点击或上拉加载更多";
+//"MJRefreshAutoFooterRefreshingText" = "正在加载更多的数据...";
+//"MJRefreshAutoFooterNoMoreDataText" = "已经全部加载完毕";
+//
+//"MJRefreshBackFooterIdleText" = "上拉可以加载更多";
+//"MJRefreshBackFooterPullingText" = "松开立即加载更多";
+//"MJRefreshBackFooterRefreshingText" = "正在加载更多的数据...";
+//"MJRefreshBackFooterNoMoreDataText" = "已经全部加载完毕";
+
+"heightSet" ="Настройка высоты";
+
+"standingMode" ="Режим стоя";
+
+"sitMode" ="Режим сидя";
+
+"pleaseInputCorrectHeight" ="Введите правильную высоту, диапазон";
+
+"pleaseEnterHeight" ="Введите высоту (цифра)";
+
+"pleaseEnterCorrectNameHeight" ="Введите правильное название или высоту";
+
+"pleaseNameMemoryHeight" ="Введите название высоты (10 символов)";
+
+"max12" ="Возможно ввести до 12 режимов";
+
+"sedentaryRemind" ="Напоминание о разминке";
+
+"overHours" ="Сидите более %@, рекомендуется разминка";
+
+"about" ="Информация";
+
+ "technicalSupport" ="Техническое руководство  :    Winner Intelligent";
+//"technicalSupport" ="Техническое руководство  :   Novo Drive";
+
+"highestPosition" ="На самой высокой отметке";
+
+"lowestPosition" ="На самой низкой отметке";
+
+"exitProgram" ="Повторное нажатие закроет программу";
+
+"warning" ="Предупреждение";
+
+"alarm" ="Звуковой сигнал";
+
+"overvoltage" ="Избыточное входное напряжение сети";
+
+"under-voltage" ="Недостаточное входное напряжение сети";
+
+"overloadAlarm" ="Звуковой сигнал перегрузки";
+
+"overheatAlarm" ="Звуковой сигнал перегрева";
+
+"collisionAlarm" ="Звуковой сигнал удара";
+
+"out-of-stepAlarm" ="Предупредительный звуковой сигнал";
+
+"noHallAlarm" ="Отключение сигнализации";
+
+"unknownError" ="Ошибка";
+
+// 提示
+"system0" ="Избыточное входное напряжение сети, система не может работать нормально";
+
+"system1" ="Недостаточное входное напряжение сети, система не может работать нормально";
+
+"system2" ="Нагрузка на систему превышает максимально допустимый уровень, система не может работать нормально";
+
+"system3" ="Система испытывает перегрев, нормальная работа невозможна";
+
+"system4" ="Система поднимается или опускается, но при возникновении препятствия автоматически возвращается.";
+
+"system5" ="Двигатели системы не синхронизированы, система не может работать нормально";
+
+"system6" ="Двигатель не подключен или сигнал не обнаружен";
+
+"system7" ="Ошибка";
+
+// 解决
+"system8" ="Проверьте электропитание, если всё в норме, переподключите систему или свяжитесь с поставщиком, если звуковой сигнал не выключается";
+
+"system9" ="Проверьте электропитание, если всё в норме, переподключите систему или свяжитесь с поставщиком, если звуковой сигнал не выключается";
+
+"system10" ="Убедитесь, что всё находится в пределах максимального диапазона нагрузки, затем снова подключите питание или нажмите кнопку сброса, чтобы решить проблему";
+
+"system11" ="Система испытывает перегрев, следуйте инструкции, чтобы позволить системе остыть. Звуковой сигнал будет автоматически выключен после того как система остынет";
+
+"system12" ="Никакое действие не требуется, звуковой сигнал будет отменен после того как система автоматически перезагрузится";
+
+"system13" ="Перезагрузите систему, чтобы выключить звуковой сигнал";
+
+"system14" ="Проверьте двигатель, если соединение нормально, нажмите сброс; в противном случае, свяжитесь с поставщиком";
+
+"system15" ="Нажмите кнопку сброса для отключения сигнализации, в противном случае обратитесь к поставщику";
+
+
+
+
+/** 图片 */
+"pic_disconnected_error" = "pic_disconnected_error_r";
+
+"btn_disconnected_go" = "btn_disconnected_go_r";
+
+"btn_mode_memory_pre" = "btn_mode_memory_pre_r";
+
+"btn_mode_memory" = "btn_mode_memory_r";
+
+"btn_mode_sit_pre" = "btn_mode_sit_pre_r";
+
+"btn_mode_sit" = "btn_mode_sit_r";
+
+"btn_mode_stand_pre" = "btn_mode_stand_pre_r";
+
+"btn_mode_stand" = "btn_mode_stand_r";

@@ -1,0 +1,368 @@
+/*
+ Localization.strings
+ Demo
+ 
+ Created by UNISK on 15/10/13.
+ Copyright © 2015年 ZYQ. All rights reserved.
+ */
+/*
+"CFBundleName" = "SmartDeskControl";
+"CFBundleDisplayName" = "SmartDeskControl";
+ */
+"CFBundleName" = "Aleganta";
+"CFBundleDisplayName" = "Aleganta";
+
+"control" ="Control";
+"aboutHealth" ="About Health";
+"bluetooth" = "Bluetooth";
+"pairedDevices" ="Paired devices";
+"connectionDevices" ="The current connection devices";
+"historyDevices" ="History connected devices";
+"availableDevices" ="Available devices";
+"notAvailableDevices" = "Can't find any available devices";
+
+"notAvailablePermission" = "Please turn on Bluetooth permission in mobile settings";
+
+"timeout" = "timeOut...";
+
+"searching" ="Searching...";
+
+"trunOnBluetooth" ="Please turn on Bluetooth";
+
+"connectBluetooth" ="Connect Bluetooth";
+
+"connecting" ="Connecting ...";
+
+"cluetoothConnected" ="Bluetooth connected";
+
+"cluetoothDisconnected" = "Bluetooth disconnected";
+
+"bluetoothDisconnected" = "bluetooth disconnected";
+
+"notSupportBluetooth" ="The device does not support bluetooth";
+
+"successfulConnection" = "Successful connection";
+
+"notSupportLowBluetooth" ="The device does not support low power consumption bluetooth (BLE) ";
+
+"positioningNotOpen" ="Positioning not open";
+
+"PositioningOpened" ="Positioning opened";
+
+"connectDesk" ="Connect smart desk";
+
+"dataFailure" ="Data transmission failure, please check the connection.";
+
+"uncontrolled" ="Equipment uncontrolled, please check the connection.";
+
+"healthData" ="Health data";
+
+"standRatio" ="Sit & stand ratio";
+
+"7Days" ="Recent 7 days record";
+
+"sittingTime" ="Sitting time:";
+
+"standingTime" ="Standing time:";
+
+"date" ="Date";
+
+"sittingTimeHours" ="Sitting time (hours)";
+
+"standingTimeHours" ="Standing time (hours)";
+
+"sitStandRatio" ="Sit & stand ratio";
+
+"noData" ="No data";
+
+"hours" ="Hours";
+
+"minutes" ="Minutes";
+
+"more" ="More";
+
+"version  " ="Version";
+
+"warning1" = "Warning!";
+
+"rename" ="Rename";
+
+"pleaseRename" ="Please rename";
+
+"inputName" = "Input name";
+
+"heightName" = "name";
+
+"heightCount" = "height";
+
+"max20" ="Maximum 20 characters supported.";
+
+"reName20" ="Re-name within 20 characters";
+
+"reNameNoEmpty" ="Rename can't be empty, please try again";
+
+"nameExists" ="The name already exists";
+
+"upTo12Groups" = "Up to 12 groups";
+
+"saveAfter" ="Please save after revise";
+
+"notAllowed" ="Special symbol is not allowed";
+
+"notEmpty" ="Model can't be empty. Please try again";
+
+"nameNotEmpty" ="Name can't be empty";
+
+"canNotEmpty" = "Can't be empty";
+
+"less5Seconds" = "Can't be less than 5 seconds";
+
+"greater300Seconds" = "Can't be greater than 300 seconds";
+
+"appExit" ="The program appears abnormal, it will exit immediately.";
+
+"yes" ="Yes";
+
+"continue_long_tip" = "REMIND LATER";
+
+"close_long_tip" ="CLOSE";
+
+"localNotifiContent" = "TIME TO GET UP";
+
+"edit" ="Edit";
+
+"add" ="Add";
+
+"saveSuccessfully" ="Save successfully";
+
+"saveFailed" ="Save failed";
+
+"initializing" ="Initializing";
+
+"initializingFailed" ="Initializing failed, please check the connection";
+
+"setting" ="Setting";
+
+"settingSuccessfully" ="Setting successfully";
+
+"settingFailed" ="Setting failed";
+
+"save" ="Save";
+
+"smartDeskControl" ="Smart Desk Control";
+
+"delete" ="Delete";
+
+"currentHeight" ="Current height";
+
+"memoryHeight" ="Memory height";
+
+"noMemoryHeight" ="No memory height";
+
+"chooseMemoryHeight" ="Choose memory height";
+//
+//"shurunicheng" ="建议输入爸爸 妈妈 爷爷 奶奶等";
+"memoryHeight1" ="Memory height 1";
+
+"modelExists" ="The model already exists";
+
+"settings" = "Settings";
+
+"unit" ="Unit";
+
+"cm" ="CM";
+
+"inch" ="Inch";
+
+"screenSaverTime" ="Screen saver time";
+
+"s" = "s";
+
+"30s" ="30s";
+
+"60s" ="60s";
+
+"90s" ="90s";
+
+"120s" ="120s";
+
+"always-on" ="Always-on";
+
+"customs" ="Custom(s)";
+
+"customsssss" ="Custom";
+
+"enterValues" ="Please enter the values";
+
+"rangeIs" ="Please enter the correct values，range is";
+
+"protection" ="Collision protection";
+
+"close" ="Off";
+
+"mild" ="Light";
+
+"moderate" ="Normal";
+
+"severe" ="Heavy";
+
+"lishi" ="History";
+
+"self-learning" ="Self-learning";
+
+"reset" ="Reset";
+
+"inSelf-learning" ="In self-learning";
+
+"self-learningFinish" ="Self-learning finish";
+
+"Self-learningFailed" ="Self-learning failed";
+
+"resetting" ="Resetting";
+
+"cancelResetting" = "Return will cancel reset";
+
+"resetFinish" ="Reset finish";
+
+"resetFailed" ="Reset failed";
+
+"sendFails" ="Send failed";
+
+"buzzer" ="Beep";
+
+"open" ="On";
+
+"off" ="Off";
+
+"handleBrightness" ="Handle brightness";
+
+"energySave" ="Low brightness";
+
+"normalBrightness" ="Normal brightness";
+
+"highBrightness" ="High brightness";
+
+"cancel" = "Cancel";
+
+"sure" = "Sure";
+
+"setting_longtime" = "Sedentary remind";
+
+"setting_toast_longtime" = "Sitting time set %@";
+
+"to_connected" = "Connect";
+//"MJRefreshHeaderIdleText" = "下拉可以刷新";
+//"MJRefreshHeaderPullingText" = "松开立即刷新";
+//"MJRefreshHeaderRefreshingText" = "正在刷新数据中...";
+//
+//"MJRefreshAutoFooterIdleText" = "点击或上拉加载更多";
+//"MJRefreshAutoFooterRefreshingText" = "正在加载更多的数据...";
+//"MJRefreshAutoFooterNoMoreDataText" = "已经全部加载完毕";
+//
+//"MJRefreshBackFooterIdleText" = "上拉可以加载更多";
+//"MJRefreshBackFooterPullingText" = "松开立即加载更多";
+//"MJRefreshBackFooterRefreshingText" = "正在加载更多的数据...";
+//"MJRefreshBackFooterNoMoreDataText" = "已经全部加载完毕";
+
+"heightSet" ="Height set";
+
+"standingMode" ="Standing mode";
+
+"sitMode" ="Sit mode";
+
+"pleaseInputCorrectHeight" ="Please input the correct height, range is";
+
+"pleaseEnterHeight" ="Please enter the height";
+
+"pleaseEnterCorrectNameHeight" ="Please enter the correct name or height";
+
+"pleaseNameMemoryHeight" ="Please name the memory height within 10 characters";
+
+"max12" ="Maximum 12 groups memory data can be support";
+
+"sedentaryRemind" ="Sedentary remind";
+
+"overHours" ="Sitting over %@, stand & sit mode is suggested.";
+
+"about" ="About";
+
+ "technicalSupport" ="Technical support  ：  Winner Intelligent";
+//"technicalSupport" ="Technical support  :   Novo Drive";
+
+"highestPosition" ="At the highest height";
+
+"lowestPosition" ="At the lowest height";
+
+"exitProgram" ="Press again to exit";
+
+"warning" ="Warning";
+
+"alarm" ="Alarm";
+
+"overvoltage" ="Overvoltage alarm";
+
+"under-voltage" ="Undervoltage alarm";
+
+"overloadAlarm" ="Overload alarm";
+
+"overheatAlarm" ="Overheat alarm";
+
+"collisionAlarm" ="Collision alarm";
+
+"out-of-stepAlarm" ="desynchronizing alarm";
+
+"noHallAlarm" ="Motor fault alarm";
+
+"unknownError" ="Unknown error";
+
+"system0" ="it alarms when the supply voltage is higher than limit value";
+
+"system1" ="it alarms when the supply voltage is lower than limit value";
+
+"system2" ="it alarms when load exceeds maximum";
+
+"system3" ="it alarms may be launched after running for a long time";
+
+"system4" ="it alarms when desktop in vibration, collision and tilt";
+
+"system5" ="desynchronizing alarm";
+
+"system6" ="Motor fault alarm";
+
+"system7" ="Unknown error";
+
+"system8" ="Please turn off the system. Repower until the screen off. Or the alarm clears automatically when the voltage back to normal range.Otherwise please contact with the supplier.";
+
+"system9" ="Please turn off the system. Repower until the screen off. Or the alarm clears automatically when the voltage back to normal range.Otherwise please contact with the supplier.";
+
+"system10" ="Please remove some objects on the desktop when it occurs during the rise phase; or if it occurs during the decline phase, power it off and power it on again or press reset to clear it.";
+
+"system11" ="Wait for at least 18 minutes in order to use it again.";
+
+"system12" ="Without any operation, the system will be back automatically and alarm solved.";
+
+"system13" ="Please check the motor and ensure that the connection between motor and controller is reliable,  then press reset if connection normal.Otherwise please contact with the supplier.";
+
+"system14" ="Please check the motor and ensure that the connection between motor and controller is reliable, then turn off the system， Repower until the screen off, or press reset to clear it.Otherwise please contact with the supplier.";
+
+"system15" ="Please check the motor and ensure that the connection between motor and controller is reliable, then turn off the system， Repower until the screen off, or press reset to clear it.Otherwise please contact with the supplier.";
+
+
+
+
+/** 图片 */
+"pic_disconnected_error" = "pic_disconnected_error_e";
+
+"btn_disconnected_go" = "btn_disconnected_go_e";
+
+"btn_mode_memory_pre" = "btn_mode_memory_pre_e";
+
+"btn_mode_memory" = "btn_mode_memory_e";
+
+"btn_mode_sit_pre" = "btn_mode_sit_pre_e";
+
+"btn_mode_sit" = "btn_mode_sit_e";
+
+"btn_mode_stand_pre" = "btn_mode_stand_pre_e";
+
+"btn_mode_stand" = "btn_mode_stand_e";

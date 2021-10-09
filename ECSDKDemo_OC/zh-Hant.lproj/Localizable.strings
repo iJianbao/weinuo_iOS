@@ -1,0 +1,48 @@
+/*
+ Localization.strings
+ Demo
+ 
+ Created by UNISK on 15/10/13.
+ Copyright © 2015年 ZYQ. All rights reserved.
+ */
+"lan_text_title" ="这是中文";
+"lan_button_click" ="点我切换";
+
+
+"lubo" ="路波";
+"dianliang" ="电量";
+"jianmei" ="健美";
+"zhili" ="智力";
+"yinliang" ="音量";
+"liuyan" ="留言";
+"tongbu" ="同步";
+"biancheng" ="编程";
+"qianliyan" ="千里眼";
+"jiatingquan" ="家庭圈";
+"tixingling" ="提醒铃";
+"meitiku" ="媒体库";
+"chengzhanglu" ="成长录";
+"gongnengjieshao" ="功能介绍";
+"wudarao" ="勿打扰";
+"kaijishegnyin" ="开机声音";
+"xuanzeyuyan" ="选择语言";
+"shebeishezhi" ="设备设置";
+"jiqirshezhi" ="机器人设置";
+"huanxingceshezhi" ="唤醒词设置";
+"tuichudangqiangzhanghao" ="退出当前账号";
+"gerenzhongxin" ="个人中心";
+"tianjiatixingling" ="添加提醒铃";
+"shijian" ="时间";
+"chongfu" ="重复";
+"lingsheng" ="铃声";
+"baocun" ="保存";
+"erge" ="儿歌";
+"gushi" ="故事";
+"yuyin" ="语音";
+"yingyu" ="英语";
+"shengchengerweima" ="生成二维码";
+"qingshuruwifizhanghao" ="请输入wifi账号";
+
+"qingshuruwifimima" ="请输入wifi密码";
+"bianchengliebiao" ="编程列表";
+"jitiwubiaoyan" ="集体表演";

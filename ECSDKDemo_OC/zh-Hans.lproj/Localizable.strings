@@ -1,0 +1,365 @@
+/*
+ Localization.strings
+ Demo
+ 
+ Created by UNISK on 15/10/13.
+ Copyright © 2015年 ZYQ. All rights reserved.
+ */
+/*
+"CFBundleName" = "SmartDeskControl";
+"CFBundleDisplayName" = "SmartDeskControl";
+ */
+"CFBundleName" = "Aleganta";
+"CFBundleDisplayName" = "Aleganta";
+
+"control" ="控制";
+"aboutHealth" ="健康";
+"bluetooth" = "蓝牙";
+"pairedDevices" ="已配对设备 ";
+"connectionDevices" ="当前连接设备 ";
+"historyDevices" ="连接过的设备";
+"availableDevices" ="可用设备";
+"notAvailableDevices" = "没有搜索到可用设备";
+
+"notAvailablePermission" = "未开启蓝牙权限，请在手机设置中打开";
+
+"timeout" = "请求超时...";
+
+"searching" ="搜索中...";
+
+"trunOnBluetooth" ="请先打开蓝牙";
+
+"connectBluetooth" ="蓝牙连接";
+
+"connecting" ="正在连接...";
+
+"cluetoothConnected" ="已连接";
+
+"cluetoothDisconnected" = "断开连接";
+
+"bluetoothDisconnected" = "蓝牙连接已断开";
+
+"notSupportBluetooth" ="该设备不支持蓝牙";
+
+"successfulConnection" = "连接成功";
+
+"notSupportLowBluetooth" ="该设备不支持低功耗蓝牙（BLE）";
+
+"positioningNotOpen" ="定位没有打开";
+
+"PositioningOpened" ="定位已打开";
+
+"connectDesk" ="连接升降桌";
+
+"dataFailure" ="数据传输失败,请确认设备连接正确";
+
+"uncontrolled" ="无法操控设备，请确定连接是否断开或连接设备是否正确 ";
+
+"healthData" ="健康数据";
+
+"standRatio" ="今日坐站时间比";
+
+"7Days" ="最近七日记录";
+
+"sittingTime" ="坐姿时间: ";
+
+"standingTime" ="站姿时间: ";
+
+"date" ="日期";
+
+"sittingTimeHours" ="坐姿时间(时)";
+
+"standingTimeHours" ="站姿时间(时)";
+
+"sitStandRatio" ="坐站比";
+
+"noData" ="暂无数据";
+
+"hours" ="小时";
+
+"minutes" ="分钟";
+
+"more" ="更多";
+
+"version" ="版本号";
+
+"warning1" = "警告！";
+
+"rename" ="重命名";
+
+"pleaseRename" ="请输入蓝牙名称";
+
+"inputName" = "请输入名称";
+
+"heightName" = "名称";
+
+"heightCount" = "高度";
+
+"max20" ="重命名可输入字符最大长度为20";
+
+"reName20" ="请重新输入1~20个字符长度的名称 ";
+
+"reNameNoEmpty" ="重命名不能为空，请重新输入";
+
+"nameExists" ="该名称数据库中已存在!";
+
+"upTo12Groups" = "最多12组";
+
+"saveAfter" ="请修改后再保存";
+
+"notAllowed" ="不允许输入特殊符号";
+
+"notEmpty" ="型号名称不能为空，请重新输入";
+
+"nameNotEmpty" ="名称不能为空哦";
+
+"canNotEmpty" = "不能为空";
+
+"less5Seconds" = "不能小于5秒";
+
+"greater300Seconds" = "不能大于300秒";
+
+"appExit" ="很抱歉,程序出现异常,即将退出";
+
+"yes" ="确定";
+
+"continue_long_tip" = "稍后提示";
+
+"close_long_tip" ="关闭";
+
+"localNotifiContent" = "时间到了，该站起来了";
+
+"edit" ="编辑";
+
+"add" ="添加";
+
+"saveSuccessfully" ="保存成功";
+
+"saveFailed" ="保存失败";
+
+"initializing" ="正在初始化";
+
+"initializingFailed" ="初始化数据失败,请查看是否已连接设备";
+
+"setting" ="正在设置";
+
+"settingSuccessfully" ="设置成功";
+
+"settingFailed" ="设置失败";
+
+"save" ="保存";
+
+"smartDeskControl" ="智能升降桌";
+
+"delete" ="删除";
+
+"currentHeight" ="当前高度";
+
+"memoryHeight" ="记忆高度";
+
+"noMemoryHeight" ="暂无记忆高度";
+
+"chooseMemoryHeight" ="选择记忆高度";
+//
+//"shurunicheng" ="建议输入爸爸 妈妈 爷爷 奶奶等";
+"memoryHeight1" ="记忆高度1";
+
+"modelExists" ="该模式已存在";
+
+"settings" = "设置";
+ 
+"unit" ="单位设置";
+
+"cm" ="厘米";
+
+"inch" ="英寸";
+
+"screenSaverTime" ="息屏时间";
+
+"s" = "秒";
+
+"30s" ="30秒";
+
+"60s" ="60秒";
+
+"90s" ="90秒";
+
+"120s" ="120秒";
+
+"always-on" ="常亮";
+
+"customs" ="自定义(秒)";
+
+"customsssss" ="自定义";
+
+"enterValues" ="请输入数值";
+
+"rangeIs" ="请输入正确的数值,范围为";
+
+"protection" ="碰撞保护";
+
+"close" ="关闭";
+
+"mild" ="轻档";
+
+"moderate" ="中档";
+
+"severe" ="重档";
+
+"self-learning" ="自学习";
+
+"reset" ="复位";
+
+"inSelf-learning" ="正在进行自学习";
+
+"self-learningFinish" ="自学习完成";
+
+"Self-learningFailed" ="自学习失败";
+
+"resetting" ="正在进行复位";
+
+"cancelResetting" = "返回将取消复位";
+
+"resetFinish" ="复位完成";
+
+"resetFailed" ="复位失败";
+
+"sendFails" ="发送命令失败";
+
+"buzzer" ="蜂鸣器";
+
+"open" ="开启";
+
+"off" ="关闭";
+
+"handleBrightness" ="手柄亮度";
+
+"energySave" ="节能";
+
+"normalBrightness" ="普通";
+
+"highBrightness" ="高亮";
+
+"cancel" = "取消";
+
+"sure" = "确认";
+
+"setting_longtime" = "久坐提醒";
+
+"setting_toast_longtime" = "您已设置久坐提醒时间为 %@";
+
+"to_connected" = "连接升降桌";
+//"MJRefreshHeaderIdleText" = "下拉可以刷新";
+//"MJRefreshHeaderPullingText" = "松开立即刷新";
+//"MJRefreshHeaderRefreshingText" = "正在刷新数据中...";
+//
+//"MJRefreshAutoFooterIdleText" = "点击或上拉加载更多";
+//"MJRefreshAutoFooterRefreshingText" = "正在加载更多的数据...";
+//"MJRefreshAutoFooterNoMoreDataText" = "已经全部加载完毕";
+//
+//"MJRefreshBackFooterIdleText" = "上拉可以加载更多";
+//"MJRefreshBackFooterPullingText" = "松开立即加载更多";
+//"MJRefreshBackFooterRefreshingText" = "正在加载更多的数据...";
+//"MJRefreshBackFooterNoMoreDataText" = "已经全部加载完毕";
+
+"heightSet" ="高度设置";
+
+"standingMode" ="站姿模式";
+
+"sitMode" ="坐姿模式";
+
+"pleaseInputCorrectHeight" ="请输入正确的高度,范围为";
+
+"pleaseEnterHeight" ="请输入高度值";
+
+"pleaseEnterCorrectNameHeight" ="请输入正确的名称或高度";
+
+"pleaseNameMemoryHeight" ="请输入1~10个字符的记忆高度名称";
+
+"max12" ="最多可设置12组记忆高度数据";
+
+"sedentaryRemind" ="久坐提醒";
+
+"overHours" ="久坐超过 %@，建议您坐站交替办公";
+
+"about" ="关于";
+
+ "technicalSupport" ="技术支持   ：    为诺智驱";
+//"technicalSupport" ="技术支持  :   Novo Drive";
+
+"highestPosition" ="已处于最高位置";
+
+"lowestPosition" ="已处于最低位置";
+
+"exitProgram" ="再按一次退出程序";
+
+"warning" ="警告";
+
+"alarm" ="报警";
+
+"overvoltage" ="过压报警";
+
+"under-voltage" ="欠压报警";
+
+"overloadAlarm" ="过载报警";
+
+"overheatAlarm" ="过热报警";
+
+"collisionAlarm" ="碰撞报警";
+
+"out-of-stepAlarm" ="失步报警";
+
+"noHallAlarm" ="电机异常报警";
+
+"unknownError" ="未知错误";
+
+"system0" ="电源电压高于限制值时报警";
+
+"system1" ="电源电压低于限制值时报警";
+
+"system2" ="系统负载超过最大载荷时报警";
+
+"system3" ="连续长时间运行可能启动此报警";
+
+"system4" ="桌子在运动过程中发生振动、倾斜或受到碰撞时报警";
+
+"system5" ="失步报警";
+
+"system6" ="电机异常报警";
+
+"system7" ="系统未知错误";
+
+"system8" ="应断电，等待手控器息屏后重新上电，或待电源电压恢复到解除值后自动解除。如果报警未解除，请联系您的供应商。";
+
+"system9" ="应断电，等待手控器息屏后重新上电，或待电源电压恢复到解除值后自动解除。如果报警未解除，请联系您的供应商。";
+
+"system10" ="向上运行时出现此报警，应移除桌上部分重物再运行；若在向下运动时出现此报警，应断电，等待手控器息屏后重新上电，或者执行行程复位解除此报警。";
+
+"system11" ="等待至少18分钟后方可使用。";
+
+"system12" ="无需任何操作，系统自动回退后报警将解除";
+
+"system13" ="应检查所有电机与控制器的连接线路，并确保其连接可靠，然后执行行程复位解除此报警。如果报警未解除，请联系您的供应商。";
+
+"system14" ="应检查所有电机与控制器的连接线路，并确保其连接可靠，然后断电，等待手控器息屏后重新上电，或者执行行程复位解除此报警。如果报警未解除，请联系您的供应商。";
+
+"system15" ="应检查所有电机与控制器的连接线路，并确保其连接可靠，然后断电，等待手控器息屏后重新上电，或者执行行程复位解除此报警。如果报警未解除，请联系您的供应商。";
+
+
+
+/** 图片 */
+"pic_disconnected_error" = "pic_disconnected_error";
+
+"btn_disconnected_go" = "btn_disconnected_go";
+
+"btn_mode_memory_pre" = "btn_mode_memory_pre";
+
+"btn_mode_memory" = "btn_mode_memory";
+
+"btn_mode_sit_pre" = "btn_mode_sit_pre";
+
+"btn_mode_sit" = "btn_mode_sit";
+
+"btn_mode_stand_pre" = "btn_mode_stand_pre";
+
+"btn_mode_stand" = "btn_mode_stand";

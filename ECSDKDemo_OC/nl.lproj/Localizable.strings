@@ -1,0 +1,366 @@
+/*
+ Localization.strings
+ Demo
+ 
+ Created by UNISK on 15/10/13.
+ Copyright © 2015年 ZYQ. All rights reserved.
+ */
+/*
+"CFBundleName" = "SmartDeskControl";
+"CFBundleDisplayName" = "SmartDeskControl";
+ */
+"CFBundleName" = "Aleganta";
+"CFBundleDisplayName" = "Aleganta";
+
+"control" ="Controle";
+"aboutHealth" ="Over uw gezondheid";
+"bluetooth" = "Bluetooth";
+"pairedDevices" ="Gekoppelde apparaten ";
+"connectionDevices" ="De huidige gekoppelde apparaten ";
+"historyDevices" ="Geschiedenis van gekoppelde apparaten";
+"availableDevices" ="Beschikbare apparaten";
+"notAvailableDevices" = "Kan geen beschikbare apparaten vinden";
+
+"notAvailablePermission" = "Toestemming voor Bluetooth is niet ingeschakeld, gelieve deze te openen in instellingen voor mobiele telefoons";
+
+"timeout" = "time-out verzoeken";
+
+"searching" ="Zoeken";
+
+"trunOnBluetooth" ="Zet Bluetooth aan a.u.b.";
+
+"connectBluetooth" ="Bluetooth verbinden";
+
+"connecting" ="Verbinden ...";
+
+"cluetoothConnected" ="Bluetooth verbonden";
+
+"cluetoothDisconnected" = "Ontkoppel";
+
+"bluetoothDisconnected" = "Verbinding met Bluetooth verbroken";
+
+"notSupportBluetooth" ="Het apparaat ondersteunt geen Bluetooth";
+
+"successfulConnection" = "De verbinding was succesvol";
+
+"notSupportLowBluetooth" ="Het apparaat ondersteunt geen lage spanning Bluetooth (BLE)";
+
+"positioningNotOpen" ="Positionering niet open";
+
+"PositioningOpened" ="Positionering open";
+
+"connectDesk" ="Verbind BREX Bureau";
+
+"dataFailure" ="Data verzending error, controleer verbinding";
+
+"uncontrolled" ="Apparaat niet gecontroleerd, controleer de verbinding";
+
+"healthData" ="Gezondheidsdata";
+
+"standRatio" ="Zit & Sta ratio";
+
+"7Days" ="Data laatste 7 dagen";
+
+"sittingTime" ="Tijd gezeten: ";
+
+"standingTime" ="Tijd gestaan: ";
+
+"date" ="Datum";
+
+"sittingTimeHours" ="Tijd gezeten (uren)";
+
+"standingTimeHours" ="Tijd gestaan (uren)";
+
+"sitStandRatio" ="Zit & sta ratio";
+
+"noData" ="Geen data";
+
+"hours" ="Uren";
+
+"minutes" ="Minuten";
+
+"more" ="Meer";
+
+"version" ="Versie";
+
+"warning1" = "Waarschuwing！";
+
+"rename" ="Hernoem";
+
+"pleaseRename" ="Hernoem a.u.b.";
+
+"inputName" = "Hernoem a.u.b.";
+
+"heightName" = "Naam";
+
+"heightCount" = "hoogte";
+
+"max20" ="Maximum van 20 karakters ondersteund";
+
+"reName20" ="Hernoem met maximaal 20 karakters";
+
+"reNameNoEmpty" ="Hernoem veld mag niet leeg zijn";
+
+"nameExists" ="Deze naam bestaat al";
+
+"upTo12Groups" = "Maximaal 12 groepsgeheugen data ondersteund";
+
+"saveAfter" ="Opslaan na herziening a.u.b.";
+
+"notAllowed" ="Speciaal teken is niet toegestaan";
+
+"notEmpty" ="Model kan niet leeg zijn. Probeer opnieuw a.u.b.";
+
+"nameNotEmpty" ="Naam veld mag niet leeg zijn";
+
+"canNotEmpty" = "Naam veld mag niet leeg zijn";
+
+"less5Seconds" = "Niet minder dan vijf seconden";
+
+"greater300Seconds" = "Niet meer dan 300 seconden";
+
+"appExit" ="Het programma lijkt abnormaal, het wordt onmiddellijk afgesloten.";
+
+"yes" ="Ja";
+
+"continue_long_tip" = "Laat het me later weten.";
+
+"close_long_tip" ="sluiten";
+
+"localNotifiContent" = "Het is tijd om op te staan.";
+
+"edit" ="Wijzigen";
+
+"add" ="Voeg toe";
+
+"saveSuccessfully" ="Succesvol opgeslagen";
+
+"saveFailed" ="Opslaan mislukt";
+
+"initializing" ="Initialiseren";
+
+"initializingFailed" ="Initialiseren mislukt, controleer de verbinding";
+
+"setting" ="Instelling";
+
+"settingSuccessfully" ="Instelling succesvol";
+
+"settingFailed" ="Instelling mislukt";
+
+"save" ="Opslaan";
+
+"smartDeskControl" ="Brex Bureau Controller";
+
+"delete" ="Verwijderen";
+
+"currentHeight" ="Huidige hoogte";
+
+"memoryHeight" ="Geheugen hoogte";
+
+"noMemoryHeight" ="Geen geheugen hoogte";
+
+"chooseMemoryHeight" ="Kies geheugen hoogte";
+//
+//"shurunicheng" ="建议输入爸爸 妈妈 爷爷 奶奶等";
+"memoryHeight1" ="Geheugen hoogte 1";
+
+"modelExists" ="Dit model bestaat al";
+
+"settings" = "Instellingen";
+ 
+"unit" ="Eenheid";
+
+"cm" ="CM";
+
+"inch" ="Inch";
+
+"screenSaverTime" ="Screensaver tijd";
+
+"s" = "s";
+
+"30s" ="30s";
+
+"60s" ="60s";
+
+"90s" ="90s";
+
+"120s" ="120s";
+
+"always-on" ="Altijd aan";
+
+"customs" ="Aangepast";
+
+"customsssss" ="Aangepast";
+
+"enterValues" ="Voer de waarden in";
+
+"rangeIs" ="Voer de juiste waarden in, bereik is";
+
+"protection" ="Botsingsbeveiliging";
+
+"close" ="Uit";
+
+"mild" ="Licht";
+
+"moderate" ="Normaal";
+
+"severe" ="Zwaar";
+
+"self-learning" ="Zelfstudie";
+
+"reset" ="Reset";
+
+"inSelf-learning" ="In zelfstudie";
+
+"self-learningFinish" ="Einde zelfstudie";
+
+"Self-learningFailed" ="Zelfstudie mislukt";
+
+"resetting" ="Resetten";
+
+"cancelResetting" = "Terugkeer zal de reset annuleren";
+
+"resetFinish" ="Reset einde";
+
+"resetFailed" ="Reset mislukt";
+
+"sendFails" ="Verzenden mislukt";
+
+"buzzer" ="Pieptoon";
+
+"open" ="Aan";
+
+"off" ="Uit";
+
+"handleBrightness" ="Helderheid instellen";
+
+"energySave" ="Lage helderheid";
+
+"normalBrightness" ="Normale helderheid";
+
+"highBrightness" ="Hoge helderheid";
+
+"cancel" = "annuleren";
+
+"sure" = "bevestigen";
+
+"setting_longtime" = "Zitherinnering";
+
+"setting_toast_longtime" = "Sitting time set %@";
+
+"to_connected" = "Verbind BREX Bureau";
+//"MJRefreshHeaderIdleText" = "下拉可以刷新";
+//"MJRefreshHeaderPullingText" = "松开立即刷新";
+//"MJRefreshHeaderRefreshingText" = "正在刷新数据中...";
+//
+//"MJRefreshAutoFooterIdleText" = "点击或上拉加载更多";
+//"MJRefreshAutoFooterRefreshingText" = "正在加载更多的数据...";
+//"MJRefreshAutoFooterNoMoreDataText" = "已经全部加载完毕";
+//
+//"MJRefreshBackFooterIdleText" = "上拉可以加载更多";
+//"MJRefreshBackFooterPullingText" = "松开立即加载更多";
+//"MJRefreshBackFooterRefreshingText" = "正在加载更多的数据...";
+//"MJRefreshBackFooterNoMoreDataText" = "已经全部加载完毕";
+
+"heightSet" ="Hoogte instelling";
+
+"standingMode" ="Stamodus";
+
+"sitMode" ="Zitmodus";
+
+"pleaseInputCorrectHeight" ="Voer de juiste hoogte in, bereik is";
+
+"pleaseEnterHeight" ="Voer de hoogte in";
+
+"pleaseEnterCorrectNameHeight" ="Voer de correcte naam of hoogte in";
+
+"pleaseNameMemoryHeight" ="Voer een naam in met max 10 karakters";
+
+"max12" ="Maximaal 12 groepsgeheugen data ondersteund";
+
+"sedentaryRemind" ="Zitherinnering";
+
+"overHours" ="U zit langer dan %@ uren , sta-zit modus is aanbevolen";
+
+"about" ="Over";
+
+"technicalSupport" ="Technical support  ：  Winner Intelligent";
+//"technicalSupport" ="Technische ondersteuning: Novo Drive";
+
+"highestPosition" ="Op de hoogste modus";
+
+"lowestPosition" ="Op de laagste modus";
+
+"exitProgram" ="Druk nogmaals voor afsluiten";
+
+"warning" ="Waarschuwing";
+
+"alarm" ="Alarm";
+
+"overvoltage" ="Overbelasting alarm";
+
+"under-voltage" ="Lage voltage alarm";
+
+"overloadAlarm" ="Overbelasting alarm";
+
+"overheatAlarm" ="Overhit alarm";
+
+"collisionAlarm" ="Botsing alarm";
+
+"out-of-stepAlarm" ="Desynchronisatie alarm";
+
+"noHallAlarm" ="Motor error alarm";
+
+"unknownError" ="Onbekende error";
+
+"system0" ="Alarm wanneer de voedingsspanning groter is dan grenswaarde";
+
+"system1" ="Alarm wanneer de voedingsspanning lager is dan grenswaarde";
+
+"system2" ="Alarm wanneer de belasting het maximum overschrijdt";
+
+"system3" ="Het alarm kan worden geactiveerd nadat het bureau een lange tijd heeft gedraaid";
+
+"system4" ="Alarm wanneer het bureaublad trilt, botst en kantelt";
+
+"system5" ="desynchronisatie alarm";
+
+"system6" ="Motor error alarm";
+
+"system7" ="Onbekende error";
+
+"system8" ="Schakel het systeem uit. Haal de stekker minimaal 10 seconden uit het stopcontact.Het alarm verdwijnt automatisch wanneer de spanning weer normaal is.Neem anders contact op met de leverancier.";
+
+"system9" ="Schakel het systeem uit. Haal de stekker minimaal 10 seconden uit het stopcontact.Het alarm verdwijnt automatisch wanneer de spanning weer normaal is.Neem anders contact op met de leverancier.";
+
+"system10" ="Verwijder a.u.b. enkele objecten van het bureaublad wanneer dit zich voordoet tijdens het omhoog zetten van het bureau; wanneer het zich voordoet tijdens het verlagen, schakel dan uit en weer in of druk op reset om te wissen.";
+
+"system11" ="Wacht ten minste 18 minuten alvorens opnieuw te gebruiken.";
+
+"system12" ="Zonder enige handeling keert het systeem automatisch terug en wordt het alarm opgelost.";
+
+"system13" ="Controleer de motor en zorg ervoor dat de verbinding tussen motor en controller intact is, en druk vervolgens op reset als de verbinding normaal is. Neem anders contact op met de leverancier.";
+
+"system14" ="Controleer de motor en zorg ervoor dat de verbinding tussen motor en controller intact is. Haal de stekker minimaal 10 seconden uit het stopcontact, of druk op reset om te wissen. Neem anders contact op met de leverancier";
+
+"system15" ="Controleer de motor en zorg ervoor dat de verbinding tussen motor en controller intact is. Haal de stekker minimaal 10 seconden uit het stopcontact, of druk op reset om te wissen. Neem anders contact op met de leverancier";
+
+
+
+/** 图片 */
+"pic_disconnected_error" = "pic_disconnected_error_r";
+
+"btn_disconnected_go" = "btn_disconnected_go_r";
+
+"btn_mode_memory_pre" = "btn_mode_memory_pre_d";
+
+"btn_mode_memory" = "btn_mode_memory_d";
+
+"btn_mode_sit_pre" = "btn_mode_sit_pre_d";
+
+"btn_mode_sit" = "btn_mode_sit_d";
+
+"btn_mode_stand_pre" = "btn_mode_stand_pre_d";
+
+"btn_mode_stand" = "btn_mode_stand_d";
+

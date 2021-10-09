@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "已连接"; ObjectID = "FnC-mE-dWF"; */
+"FnC-mE-dWF.text" = "Bluetooth verbonden";
+
+/* Class = "UILabel"; text = "蓝牙名称"; ObjectID = "qJE-Yi-LTY"; */
+"qJE-Yi-LTY.text" = "Bluetooth name";
+
+/* Class = "UILabel"; text = "services"; ObjectID = "vDr-lM-n6h"; */
+"vDr-lM-n6h.text" = "services";

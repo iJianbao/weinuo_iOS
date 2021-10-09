@@ -1,0 +1,343 @@
+/*
+ Localization.strings
+ Demo
+ 
+ Created by UNISK on 15/10/13.
+ Copyright © 2015年 ZYQ. All rights reserved.
+ */
+"CFBundleName" = "WN_DESK";
+"CFBundleDisplayName" = "WN_DESK";
+
+"control" ="控制";
+"aboutHealth" ="健康";
+"bluetooth" = "蓝牙";
+"pairedDevices" ="已配对设备 ";
+"connectionDevices" ="当前连接设备 ";
+"historyDevices" ="连接过的设备";
+"availableDevices" ="可用设备";
+"notAvailableDevices" = "没有搜索到可用设备";
+
+"searching" ="搜索中...";
+
+"trunOnBluetooth" ="请先打开蓝牙";
+
+"connectBluetooth" ="蓝牙连接";
+
+"connecting" ="正在连接...";
+
+"cluetoothConnected" ="已连接";
+
+"cluetoothDisconnected" = "断开连接";
+
+"notSupportBluetooth" ="该设备不支持蓝牙";
+
+"successfulConnection" = "连接成功";
+
+"notSupportLowBluetooth" ="该设备不支持低功耗蓝牙（BLE）";
+
+
+"positioningNotOpen" ="定位没有打开";
+
+"PositioningOpened" ="定位已打开";
+
+"connectDesk" ="连接升降桌";
+
+"dataFailure" ="数据传输失败,请确认设备连接正确";
+
+"uncontrolled" ="无法操控设备，请确定连接是否断开或连接设备是否正确 ";
+
+"healthData" ="健康数据 ";
+
+"standRatio" ="今日坐站时间比";
+
+"7Days" ="最近七日记录 ";
+
+"sittingTime:" ="坐姿时间: ";
+
+"standingTime:" ="站姿时间: ";
+
+"date" ="日期";
+
+"sittingTimeHours" ="坐姿时间(时)";
+
+"standingTimeHours" ="站姿时间(时)";
+
+"sitStandRatio" ="坐站比";
+
+"noData" ="暂无数据";
+
+"hours" ="小时";
+
+"minutes" ="分钟";
+
+"more" ="更多";
+
+"version" ="版本号";
+
+"warning1" = "警告！";
+
+"rename" ="重命名 ";
+
+"pleaseRename" ="请输入蓝牙名称";
+
+"heightName" = "名称";
+
+"heightCount" = "高度";
+
+"max20" ="重命名可输入字符最大长度为20  ";
+
+"reName20" ="请重新输入1~20个字符长度的名称 ";
+
+"reNameNoEmpty" ="重命名不能为空，请重新输入";
+
+"nameExists" ="该名称数据库中已存在!";
+
+"upTo12Groups" = "最多12组";
+
+"saveAfter" ="请修改后再保存";
+
+"notAllowed" ="不允许输入特殊符号";
+
+"notEmpty" ="型号名称不能为空，请重新输入";
+
+"nameNotEmpty" ="名称不能为空哦";
+
+"canNotEmpty" = "不能为空";
+
+"less5Seconds" = "不能小于5秒";
+
+"greater300Seconds" = "不能大于300秒";
+ 
+"appExit" ="很抱歉,程序出现异常,即将退出";
+
+"yes" ="确定";
+
+"edit" ="编辑";
+
+"add" ="添加";
+
+"saveSuccessfully" ="保存成功";
+
+"saveFailed" ="保存失败";
+
+"initializing" ="正在初始化";
+
+"initializingFailed" ="初始化数据失败,请查看是否已连接设备";
+
+"setting" ="正在设置";
+
+"settingSuccessfully" ="设置成功";
+
+"settingFailed" ="设置失败";
+
+"save" ="保存";
+
+"smartDeskControl" ="智能升降桌";
+
+"delete" ="删除";
+
+"currentHeight" ="当前高度";
+
+"memoryHeight" ="记忆高度";
+
+"noMemoryHeight" ="暂无记忆高度";
+
+"chooseMemoryHeight" ="选择记忆高度";
+//
+//"shurunicheng" ="建议输入爸爸 妈妈 爷爷 奶奶等";
+"memoryHeight1" ="记忆高度1";
+
+"modelExists" ="该模式已存在";
+
+"settings" = "设置";
+ 
+"unit" ="单位设置";
+
+"cm" ="厘米";
+
+"inch" ="英寸";
+
+"screenSaverTime" ="息屏时间";
+
+"s" = "秒";
+
+"30s" ="30秒";
+
+"60s" ="60秒";
+
+"90s" ="90秒";
+
+"120s" ="120秒";
+
+"always-on" ="常亮";
+
+"customs" ="自定义(秒)";
+
+"enterValues" ="请输入数值";
+
+"rangeIs" ="请输入正确的数值,范围为";
+
+"protection" ="碰撞保护";
+
+"close" ="关闭";
+
+"mild" ="轻度";
+
+"moderate" ="中度";
+
+"severe" ="重度";
+
+"self-learning" ="自学习 ";
+
+"reset" ="复位";
+
+"inSelf-learning" ="正在进行自学习";
+
+"self-learningFinish" ="自学习完成";
+
+"Self-learningFailed" ="自学习失败";
+
+"resetting" ="正在进行复位";
+
+"cancelResetting" = "返回将取消复位";
+
+"resetFinish" ="复位完成";
+
+"resetFailed" ="复位失败";
+
+"sendFails" ="发送命令失败";
+
+"buzzer" ="蜂鸣器";
+
+"open" ="开启";
+
+"close" ="关闭";
+
+"handleBrightness" ="手柄亮度";
+
+"energySave" ="节能";
+
+"normalBrightness" ="普通";
+
+"highBrightness" ="高亮";
+
+"cancel" = "取消";
+
+"sure" = "确认";
+
+//"MJRefreshHeaderIdleText" = "下拉可以刷新";
+//"MJRefreshHeaderPullingText" = "松开立即刷新";
+//"MJRefreshHeaderRefreshingText" = "正在刷新数据中...";
+//
+//"MJRefreshAutoFooterIdleText" = "点击或上拉加载更多";
+//"MJRefreshAutoFooterRefreshingText" = "正在加载更多的数据...";
+//"MJRefreshAutoFooterNoMoreDataText" = "已经全部加载完毕";
+//
+//"MJRefreshBackFooterIdleText" = "上拉可以加载更多";
+//"MJRefreshBackFooterPullingText" = "松开立即加载更多";
+//"MJRefreshBackFooterRefreshingText" = "正在加载更多的数据...";
+//"MJRefreshBackFooterNoMoreDataText" = "已经全部加载完毕";
+
+"heightSet" ="高度设置";
+
+"standingMode" ="站姿模式";
+
+"sitMode" ="坐姿模式";
+
+"pleaseInputCorrectHeight" ="请输入正确的高度,范围为";
+
+"pleaseEnterHeight" ="请输入高度值";
+
+"pleaseEnterCorrectNameHeight" ="请输入正确的名称或高度";
+
+"pleaseNameMemoryHeight" ="请输入1~10个字符的记忆高度名称";
+
+"max12" ="最多可设置12组记忆高度数据";
+
+"sedentaryRemind" ="久坐提醒";
+
+"overHours" ="久坐超过?小时，建议您坐站交替办公";
+
+"sitting time" ="已设置久坐提醒时间";
+
+"about" ="关于";
+
+"technicalSupport" ="技术支持   ：    为诺智驱";
+
+"highestPosition" ="已处于最高状态";
+
+"lowestPosition" ="已处于最低状态";
+
+"exitProgram" ="再按一次退出程序";
+
+"warning" ="警告";
+
+"alarm" ="报警";
+
+"overvoltage" ="输入电源过压";
+
+"under-voltage" ="输入电源欠压";
+
+"overloadAlarm" ="过载报警";
+
+"overheatAlarm" ="过热报警";
+
+"collisionAlarm" ="碰撞报警";
+
+"out-of-stepAlarm" ="失步报警";
+
+"noHallAlarm " ="无霍尔报警";
+
+"unknownError" ="未知错误";
+
+"system0" ="检测到系统输入主电源电压过高，系统无法正常工作";
+
+"system1" ="检测到系统输入主电源电压过低，系统无法正常工作";
+
+"system2" ="系统负载超过最大载荷，系统无法正常工作";
+
+"system3" ="系统过热，无法正常工作";
+
+"system4" ="系统上升或下降遇到障碍物，已自动回退";
+
+"system5" ="系统各电机运行不同步，系统无法正常工作";
+
+"system6" ="电机 未连接或者未检测到霍尔信号，系统无法正常工作";
+
+"system7" ="系统未知错误";
+
+"system8" ="请确认电网供电是否正常，如确认正常请重新 给系统上电，如果报警未解除，请联系您的供应商";
+
+"system9" ="请确认电网供电是否正常，如确认正常请重新 给系统上电，报警如果未解除，请联系您的供应商";
+
+"system10" ="请减少系统当前载荷至最大允许载荷范围内， 通过重新上电或者复位解除此报警";
+
+"system11" ="系统过热，请按照使用说明让系统冷却，系统冷却后报警会自动解除";
+
+"system12" ="无需任何操作，系统自动回退后报警将解除";
+
+"system13" ="通过复位操作解除此报警";
+
+"system14" ="检查电机 是否连接正常，如果正常，通过复位操作能解除此报警，如果报警未解除，请联系您的供应商";
+
+"system15" ="通过复位操作能解除此报警，如果报警未解除，请联系您的供应商";
+
+
+
+
+/** 图片 */
+"pic_disconnected_error" = "pic_disconnected_error";
+
+"btn_disconnected_go" = "btn_disconnected_go";
+
+"btn_mode_memory_pre" = "btn_mode_memory_pre";
+
+"btn_mode_memory" = "btn_mode_memory";
+
+"btn_mode_sit_pre" = "btn_mode_sit_pre";
+
+"btn_mode_sit" = "btn_mode_sit";
+
+"btn_mode_stand_pre" = "btn_mode_stand_pre";
+
+"btn_mode_stand" = "btn_mode_stand";
